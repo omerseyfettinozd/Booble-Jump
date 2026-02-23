@@ -1799,7 +1799,7 @@ MonoBehaviour:
   platformCount: 20
   minY: 3
   maxY: 4.4
-  horizontalLimit: 1.8
+  horizontalLimit: 2.4
   startY: -8
   basePlatformCount: 7
   basePlatformSpacing: 1.5
