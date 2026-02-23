@@ -1,0 +1,23 @@
+# ninja log v5
+17	2513	7934008964772626	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	265878fb4f7181e7
+80	377	7934008943498403	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	fdc45aba0ae1b04a
+36	2435	7934008964043211	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	66817ebed405989e
+379	561	7934008945040732	C:/Users/Omer_/Documents/Unity Project/Booble Jump/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/t4d16123/obj/arm64-v8a/libswappywrapper.so	afbb5199aa77974f
+47	2115	7934008960768118	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	2a62cefc189df7a2
+25	2146	7934008961125581	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	4000b4e44603b272
+68	2303	7934008962696472	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	1f65f2f84ba9be00
+9	2167	7934008961323036	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	9ebc38315e321b30
+1	2217	7934008961827527	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	67057aa13617415b
+58	2177	7934008961411140	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	74939e8f32f2f47f
+2514	2623	7934008965879560	C:/Users/Omer_/Documents/Unity Project/Booble Jump/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/t4d16123/obj/arm64-v8a/libgame.so	6aef87393607f637
+77	204	7934043214252864	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	fdc45aba0ae1b04a
+205	358	7934043215543433	C:/Users/Omer_/Documents/Unity Project/Booble Jump/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/t4d16123/obj/arm64-v8a/libswappywrapper.so	afbb5199aa77974f
+36	989	7934043222005736	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	4000b4e44603b272
+62	991	7934043222043776	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	2a62cefc189df7a2
+53	1011	7934043222284777	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	74939e8f32f2f47f
+17	1018	7934043222315211	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	9ebc38315e321b30
+30	1067	7934043222775397	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	67057aa13617415b
+69	1118	7934043223326200	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	1f65f2f84ba9be00
+44	1217	7934043224327082	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	66817ebed405989e
+23	1301	7934043225144396	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	265878fb4f7181e7
+1302	1401	7934043226148669	C:/Users/Omer_/Documents/Unity Project/Booble Jump/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/t4d16123/obj/arm64-v8a/libgame.so	6aef87393607f637
