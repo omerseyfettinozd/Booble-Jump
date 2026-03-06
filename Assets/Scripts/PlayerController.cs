@@ -103,7 +103,7 @@ public class PlayerController : MonoBehaviour
         {
             // Eger hala yeterince saga sola hizli gitmiyorsa 2.5f'i 3f veya 4f yapabilirsin.
             // If it still doesn't go fast enough left/right, you can change 2.5f to 3f or 4f.
-            moveInput = tiltAmount * 2.5f; 
+            moveInput = tiltAmount * 1.5f; 
         }
         
         // -1 (tam sol) ve +1 (tam sag) disina cikmasini engelle

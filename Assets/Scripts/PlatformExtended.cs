@@ -19,6 +19,7 @@ public class PlatformExtended : MonoBehaviour
     public float moveSpeed = 2f;
     public float moveDistance = 2f;
     private Vector3 startPosition;
+    private SpriteRenderer cachedSpriteRenderer;
 
     [Header("Optimization Settings")]
     [Tooltip("Kameranin ne kadar asagisinda kalirsa bu platform yok edilsin? / How far below the camera should this platform be destroyed?")]
@@ -27,6 +28,7 @@ public class PlatformExtended : MonoBehaviour
     void Start()
     {
         startPosition = transform.position;
+        cachedSpriteRenderer = GetComponent<SpriteRenderer>();
 
         // Karakterin cok hizli yukari firladiginda tavanlara (diger platformlara) alttan carpip 
         // fizik motorunu bug'a sokmasini (pir pir) engellemek icin Tek Yonlu (One Way) sistemini otomatik kurar:
@@ -53,6 +55,21 @@ public class PlatformExtended : MonoBehaviour
         if (type == PlatformType.Moving)
         {
             float newX = startPosition.x + Mathf.Sin(Time.time * moveSpeed) * moveDistance;
+
+            // Platformun kamera disina cikmasini engelle / Prevent platform from going off-screen
+            if (Camera.main != null)
+            {
+                float camHalfWidth = Camera.main.orthographicSize * Camera.main.aspect;
+                // Platform sprite genisliginin yarisini da hesaba kat / Account for half the platform sprite width
+                float platformHalfWidth = 0f;
+                if (cachedSpriteRenderer != null)
+                {
+                    platformHalfWidth = cachedSpriteRenderer.bounds.extents.x;
+                }
+                float maxX = camHalfWidth - platformHalfWidth;
+                newX = Mathf.Clamp(newX, -maxX, maxX);
+            }
+
             transform.position = new Vector3(newX, transform.position.y, transform.position.z);
         }
 
